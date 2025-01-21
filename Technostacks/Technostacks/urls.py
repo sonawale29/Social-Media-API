@@ -26,5 +26,4 @@ urlpatterns = [
     path('', include('app1.urls')),
     path('login/', TokenObtainPairView.as_view(), name='login'),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-
 ]
